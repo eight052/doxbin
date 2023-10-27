@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* 共通のスタイル */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited{
+  color: #ee00ee;
+}
+
+ul{
+  list-style: none;
+}
+
+table{
+  /* border: 1px solid #ffffff; */
+  color: #ffffff;
+}
+
+td{
+  /* border: 1px solid #ffffff; */
+}
+
+/* --------------------------------- */
+
+body{
+  background-color: #000000;
+}
+
+body header{
+  /* border: 1px solid #ffff00; */
+  padding: 14px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ body header .header_left{}
+
+body header .header_left .header_nav{
+  /* border: 1px solid #ff0000; */
+  display: flex;
+  flex-direction: row;
+}
+
+body header .header_left .header_nav li{
+  /* border: 1px solid #00ff00; */
+  padding: 10px 20px;
+}
+
+body header .header_left .header_nav li:nth-child(1){
+  /* font-size: 30px; */
+}
+
+body header .header_left .header_nav li a{}
+
+body header .header_right{}
+
+body header .header_right .login_nav{
+  /* border: 1px solid #ff00ff; */
+}
+
+body header .header_right .login_nav li{
+  padding: 10px 20px;
+}
+
+/* --------------------------------------------------- */
+
+body .logo{
+  /* border: 1px solid #00ff00; */
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .logo a{
+  /* border: 1px solid #00ffff; */
+  color: #0000ff;
+}
+
+body .main{
+  /* border: 1px solid #0000ff; */
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ここからテーブル ---------------------------------- */
+
+body .main .main_table{
+  width: 1000px;
+}
+
+body .main .main_table thead{}
+
+body .main .main_table thead tr{}
+
+body .main .main_table thead tr th{
+  background-color: #444444;
+  padding: 6px;
+}
+
+body .main .main_table thead th{
+  text-align: left;
+}
+
+body .main .main_table thead th:nth-child(n+2){
+  text-align: center;
+}
+
+body .main .main_table tbody tr{}
+
+body .main .main_table tbody tr:nth-child(even){
+  background-color: #444444;
+}
+
+
+body .main .main_table tbody tr td{
+  padding: 6px;
+}
+
+body .main .main_table tbody tr td:nth-child(n+2){
+  text-align: center;
+}
+
+body .main .main_table tbody tr td:nth-child(4){
+  color: #0000ff;
+}
